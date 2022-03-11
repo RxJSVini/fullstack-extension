@@ -1,0 +1,11 @@
+<p>Faça login por favor</p>
+<div class="form-group">
+    <label for="name">Login</label>
+    <input type="text" class="form-control" name="name" placeholder="email@example.com.br" ng-model="formData.email" style="text-align: center;"/>
+    <br/>
+    <input type="password" class="form-control" name="password" placeholder="********" ng-model="formData.password" style="text-align: center;"/>
+
+</div>
+<a ng-click="login(formData)" class="btn btn-block btn-info">Login</a>
+<br/>
+<a ui-sref="signup" style="text-align: center;">Crie sua conta aqui</a>
